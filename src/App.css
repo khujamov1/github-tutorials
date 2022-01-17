@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #5686f8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.hello-world{
+  background-color: white;
+  color: navy;
+  border-radius: 17px;
+  border: black 5px solid;
+}
+.lesson-2 {
+  background-color: white;
+  border: 5px solid black;
+  padding: 10px;
+  color: navy;
+  border-radius: 50px;
+  margin: 30px;
+}
+
+.phone{
+  width: 400px;
+  height: 400px;
+  background-color: black;
+}
+.it{
+  background-color: white;
+  border-radius: 17px;
+  color: navy;
+  border: 5px black solid;
+}
+.Time{
+  background-color: white;
+  border-radius: 17px;
+  color: navy;
+  margin-top: 60px;
+  border: black 5px solid;
+  margin: 30px;
+}
+
+.Off{
+  height: 150px;
+  width: 70px;
+  background-color: black;
+  border: 5px solid grey;
+  text-align: center;
+  color: white;
+  border-radius: 19px;
+  margin-bottom: 90px;
+}
+
+.On{
+  height: 150px;
+  width: 70px;
+  background-color: white;
+  border: 5px solid grey;
+  text-align: center;
+  color: rgb(2, 2, 2);
+  border-radius: 19px;
+  margin-bottom: 90px;
+}
+button{
+  width: 200px;
+  height:40px;
+  margin: 50px;
+  border-radius: 10px;
+}
+.Avatar{
+  height: 40px;
+  width: 40px;
+}
+.Comment{
+  background-color: white;
+  color: navy;
+  border: 3px solid black;
+  margin: 30px;
+}
+.input{
+  margin: 60px  10px;
+}
